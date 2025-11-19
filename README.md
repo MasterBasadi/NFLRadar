@@ -32,14 +32,6 @@ to predict future game outcomes and scores.
 
 ---
 
-## 📊 Example Visuals
-
-| Predicted Wins by Team | Predicted Scores by Week |
-|------------------------|--------------------------|
-| ![](out/predicted_wins.png) | ![](out/predicted_scores.png) |
-
----
-
 ## 🧩 Development Notes & Model Insights
 
 Building the **NFLRadar** prediction model was a multi-stage process involving iteration, debugging, and refinement.  
