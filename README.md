@@ -87,8 +87,7 @@ XGBRegressor(
 - Adding more data doesn’t always help — feature relevance > feature quantity.
 - Balancing interpretability and accuracy (XGBoost vs. neural nets) matters for maintainability.
 
-“The final model doesn’t just predict games — it captures the momentum and fatigue patterns that define an NFL season.”
-
+---
 
 ## ⚙️ Setup
 
