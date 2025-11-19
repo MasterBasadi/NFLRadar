@@ -1,7 +1,7 @@
 # 🏈 NFLRadar: Predicting NFL Game Outcomes with Machine Learning
 
 **Author:** Basit Umair  
-**Built with:** Python, XGBoost, Pandas, Matplotlib
+**Built with:** Python, XGBoost, Pandas, Matplotlib, BeautifulSoap
 
 ---
 
