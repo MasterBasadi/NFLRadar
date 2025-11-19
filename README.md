@@ -80,8 +80,9 @@ XGBRegressor(
     random_state=1
 )
 ```
+---
 
-###💡 4️⃣ Lessons Learned
+### 💡 4️⃣ Lessons Learned
 - Preventing data leakage (using only prior stats) was crucial for trustworthy results.
 - Adding more data doesn’t always help — feature relevance > feature quantity.
 - Balancing interpretability and accuracy (XGBoost vs. neural nets) matters for maintainability.
