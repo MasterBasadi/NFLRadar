@@ -54,7 +54,7 @@ Below are some of the most notable insights and lessons learned during developme
   The terminal displays ~50% accuracy because future games don’t have real results yet (`NaN` values).  
   When evaluated only on known games, the true accuracy is about **63%**.  
 - **Edge cases:**  
-  - Week 18 initially disappeared due to timezone and date parsing issues — fixed by explicitly setting all games to year `2025`.  
+  - Week 18 initially disappeared due to timezone and date parsing issues, fixed by explicitly setting all games to year `2025`.  
   - Rounding predicted scores slightly reduced accuracy, so rounding is deferred to visualization instead.
 
 ---
@@ -76,7 +76,7 @@ XGBRegressor(
 
 ### 💡 4️⃣ Lessons Learned
 - Preventing data leakage (using only prior stats) was crucial for trustworthy results.
-- Adding more data doesn’t always help — feature relevance > feature quantity.
+- Adding more data doesn’t always help, feature relevance > feature quantity.
 - Balancing interpretability and accuracy (XGBoost vs. neural nets) matters for maintainability.
 
 ---
